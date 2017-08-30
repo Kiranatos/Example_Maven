@@ -37,6 +37,7 @@ public class Start {
         
         /* Работает и в IDE в проекте с Maven-ом, и в собранном jar-нике*/
         InputStream resource = Start.class.getClassLoader().getResourceAsStream("find.txt");        
+        //InputStream resource = Start.class.getClassLoader().getResourceAsStream("find/find.txt");
         BufferedReader reader = new BufferedReader(new InputStreamReader(resource));
         String s="";
         while ( s != null ) {  

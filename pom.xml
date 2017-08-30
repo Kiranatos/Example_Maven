@@ -6,12 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.kiranatos</groupId>
-    <artifactId>Example_Maven</artifactId>
+    <artifactId>Example_MavenAndJavaFX</artifactId>
     <version>1.0-SNAPSHOT</version>
     
     <packaging>jar</packaging>
 
-    <name>Example_Maven</name>
+    <name>Example_MavenAndJavaFX</name>
     <organization>
         <!-- Used as the 'Vendor' for JNLP generation -->
         <name>K.I.R.A.N.A.T.O.S. Corporation</name>
@@ -82,7 +82,7 @@
                 </executions>
             </plugin>
             
-            <!-- -->
+            <!-- 
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -123,7 +123,7 @@
                     </execution>
                 </executions>  
             </plugin>
-            <!-- -->
+          -->
             
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
