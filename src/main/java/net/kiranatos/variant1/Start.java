@@ -1,4 +1,4 @@
-package net.kiranatos.example_maven;
+package net.kiranatos.variant1;
 
 import java.io.BufferedReader;
 import java.io.File;

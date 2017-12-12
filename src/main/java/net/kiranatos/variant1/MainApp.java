@@ -1,4 +1,4 @@
-package net.kiranatos.example_maven;
+package net.kiranatos.variant1;
 
 import java.io.IOException;
 import javafx.application.Application;
@@ -23,14 +23,14 @@ public class MainApp extends Application {
 
         log.info("Starting Hello JavaFX and Maven demonstration application");
 
-        String fxmlFile = "/fxml/hello.fxml";
+        String fxmlFile = "/fxml/variant1/hello.fxml";
         log.debug("Loading FXML for main view from: {}", fxmlFile);
         FXMLLoader loader = new FXMLLoader();
         Parent rootNode = (Parent) loader.load(getClass().getResourceAsStream(fxmlFile));
 
         log.debug("Showing JFX scene");
         Scene scene = new Scene(rootNode, 400, 200);
-        scene.getStylesheets().add("/styles/styles.css");
+        scene.getStylesheets().add("/styles/variant1/styles.css");
 
         stage.setTitle("Hello JavaFX and Maven");
         stage.setScene(scene);

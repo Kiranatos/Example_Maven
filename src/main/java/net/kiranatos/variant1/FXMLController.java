@@ -1,4 +1,4 @@
-package net.kiranatos.example_maven;
+package net.kiranatos.variant1;
 
 import java.net.URL;
 import java.util.ResourceBundle;

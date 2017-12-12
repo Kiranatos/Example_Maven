@@ -7,7 +7,7 @@
 <?import layouttests.migfxml.sample1.*?>
 
 <MigPane id="rootPane" 
-         fx:controller="net.kiranatos.example_maven.FXMLController"
+         fx:controller="net.kiranatos.variant1.FXMLController"
          styleClass="main-panel"
          layout="insets 20"
          cols="[label, pref!][grow, 50::]"
